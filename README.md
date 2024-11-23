@@ -1,5 +1,7 @@
 # Mounty for NTFS macOS Install
 
+[![Super-Linter](https://github.com/Gwendal-Beaumont/mounty-ntfs-mac-install/actions/workflows/super-linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 # Installing
 
 ## Install Script
