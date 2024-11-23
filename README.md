@@ -1,4 +1,4 @@
-# Mountyf for NTFS macOS Install
+# Mounty for NTFS macOS Install
 
 # Installing
 
