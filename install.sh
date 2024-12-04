@@ -10,23 +10,23 @@ fi
 
 # Testing if each piece of software exists
 # Looking for macFUSE
-brew list macfuse 2>&1 >/dev/null
-if ! [ $? ]
-then
-    echo "macFUSE not installed... installing..."
-    brew install --cask macfuse
-else
-    echo "macFUSE already installed... skipping"
-fi
+# brew list macfuse 2>&1 >/dev/null
+# if ! [ $? ]
+# then
+#     echo "macFUSE not installed... installing..."
+#     brew install --cask macfuse
+# else
+#     echo "macFUSE already installed... skipping"
+# fi
 
 # Looking for NTFS-3G for Mac
-brew list gromgit/fuse/ntfs-3g-mac 2>&1 >/dev/null
+brew list ntfs-3g 2>&1 >/dev/null
 if ! [ $? ]
 then
-    echo "NTFS-3G for Mac not installed... installing..."
-    brew install gromgit/fuse/ntfs-3g-mac
+    echo "NTFS-3G not installed... installing..."
+    brew install ntfs-3g
 else
-    echo "NTFS-3G for Mac already installed... skipping"
+    echo "NTFS-3G already installed... skipping"
 fi
 
 # Looking for Mounty for NTFS
